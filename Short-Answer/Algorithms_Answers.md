@@ -12,4 +12,6 @@ c) This algorithm runs in linear or O(n) time. If you increase bunnies by 1, the
 
 ## Exercise II
 
+Start with the middle floor. If the egg cracks, check the floor in the midpoint between the middle floor and the bottom floor. If the egg does not crack, check the floor in the midpoint between the middle floor and the top floor. Repeat until you only have one possible floor.
 
+This algorithm runs in log(n) time because it cuts the number of possible answers in half in each iteration.
